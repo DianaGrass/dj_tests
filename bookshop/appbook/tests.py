@@ -54,8 +54,9 @@ class AppBookTestCase(TestCase):
     def test_login(self):
         res = self.client.login(
             username="Valera",
-            password"1234",
+            password="1234",
         )
+
         self.assertEquals(res,True)
 
 
